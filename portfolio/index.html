@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <!-- Sidebar -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <!-- Random avatar image -->
+          <img src="https://via.placeholder.com/80" alt="Random Avatar" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="John Doe">John Doe</h1>
+          <p class="title">Web Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <!-- Random email address -->
+              <a href="mailto:johndoe@example.com" class="contact-link">johndoe@example.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <!-- Random phone number -->
+              <a href="tel:+1234567890" class="contact-link">+1234567890</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <!-- Random birthday -->
+              <time datetime="1990-01-15">Jan 15, 1990</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <!-- Random location -->
+              <address>New York, USA</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link="about">About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="resume">Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="blog">Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contact">Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <!-- About -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I'm a Creative Director and UI/UX Designer with a passion for web development and print media. I enjoy
+            turning complex problems into simple, beautiful, and intuitive designs.
+          </p>
+          <p>
+            My job is to build your website to be functional and user-friendly while making it attractive. I add a
+            personal touch to your product to ensure it's eye-catching and easy to use. My aim is to convey your
+            message and identity in the most creative way possible. I've designed websites for many well-known
+            companies.
+          </p>
+        </section>
+        <!-- Services -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="https://via.placeholder.com/40" alt="Design Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+                <p class="service-item-text">
+                  Creating modern and high-quality designs at a professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="https://via.placeholder.com/40" alt="Web Development Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  High-quality development of websites at a professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="https://via.placeholder.com/40" alt="Mobile App Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile App</h4>
+                <p class="service-item-text">
+                  Designing and developing mobile applications for various platforms.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- Testimonials -->
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <div class="testimonial">
+            <p class="testimonial-text">
+              "John Doe is an amazing web designer. He has a great eye for detail and produces high-quality work.
+              I highly recommend him."
+            </p>
+            <p class="testimonial-author">Jane Smith</p>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial-text">
+              "I've worked with John on multiple projects, and he always delivers exceptional results.
+              He's a true professional."
+            </p>
+            <p class="testimonial-author">Bob Johnson</p>
+          </div>
+        </section>
+      </article>
+      <!-- Resume -->
+      <article class="resume" data-page="resume">
+        <!-- Resume content goes here -->
+      </article>
+      <!-- Portfolio -->
+      <article class="portfolio" data-page="portfolio">
+        <!-- Portfolio content goes here -->
+      </article>
+      <!-- Blog -->
+      <article class="blog" data-page="blog">
+        <!-- Blog content goes here -->
+      </article>
+      <!-- Contact -->
+      <article class="contact" data-page="contact">
+        <!-- Contact content goes here -->
+      </article>
+    </div>
+  </main>
+</body>
+</html>
